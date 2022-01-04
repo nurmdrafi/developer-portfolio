@@ -11,46 +11,71 @@ GLOBAL RULES
 /*=================
 REUSEABLE COMPONENT
 ==================*/
-section {
-    overflow: hidden;
-  }
-  .container {
-    min-width: 1480px;
-    width: 90%;
-    margin: 0 auto;
-  }
-  .container-fluid {
-    /*max-width: 1480px; */
-    width: 100%;
-    margin: 0 auto;
-  }
 
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
-.orange-color{
-    color: orange;
+.orange-color {
+  color: orange;
 }
-#header{
-    display: flex;
-    background-image: url(./images/top-banner.png);
-    background-repeat: no-repeat;
+#header {
+  display: flex;
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
+#dream {
+  display: flex;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.half-width {
+  width: 50%;
+  padding: 50px;
 }
 
-.half-width{
-    width: 50%;
-    padding: 50px;
+.half-width img {
+  width: 80%;
 }
-
-.half-width img{
-    width: 80%;
+.link-button {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(#ff8800, #ffa500);
+  padding: 10px 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
-.link-button{
-    text-decoration: none;
-    color: black;
-    background-image: linear-gradient(#ff8800, #ffa500);
-    padding: 7px;
+#experience-items {
+  display: flex;
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  justify-content: space-around;
+}
+#experience-items h1 {
+  font-size: 40px;
+}
+#experience-items .half-width {
+  width: 45%;
+  box-shadow: 5px 7px 40px grey;
+}
+.full-stack {
+  border-left: 7px solid;
+  border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+  border-image-slice: 1;
+}
+.baby-developer{
+    border-left: 7px solid;
+    border-image-source: linear-gradient(to left, #00C853, #B2FF59);
+    border-image-slice: 1;
+}
+#experience{
+    margin-bottom: 100px;
+}
+footer h4{
+    text-align: center;
+    color: gray;
 }
